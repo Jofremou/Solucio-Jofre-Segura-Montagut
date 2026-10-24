@@ -1,6 +1,12 @@
-# Visió general
+# Descripció
 
-Tria les eines que et siguin més còmodes per tal de solucionar aquests problemes. Les tasques estan dissenyades per testejar la teva habilitat de treballar amb dades i scripts, amb l’objectiu de mostrar les teves capacitats per entrar a l’equip tècnic de sistemes de l’ICGC.
+Aquest repositori es una solució per a una prova tècnica online per entrar a l’equip tècnic de sistemes de l’ICGC. Aquest README explicará com funcionen les solucions i com executar-les.
+
+## Tasca 1
+
+L'objectiu d'aquesta tasca és calcular el cost total de cada ordre i guardar el resultat a `order_prices.csv`. La solució consisteix en llegir els ids al camp `products` de `orders.csv`, buscar el preu corresponent als ids a `products.csv` i escriure el resultat al nou csv. El codi es pot executar encara que s'hi afegeixin nous productes a posteriori, i aquest calculará els preus un altre cop des de zero, evitant preus incorrectes si el codi s'executa múltiples vegades.
+
+Per executar-ho, hi ha prou amb tenir python 3 al sistema, amb la comanda `python tasca1.py`.
 
 # Exercici
 
