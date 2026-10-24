@@ -1,4 +1,3 @@
-
 import csv
 
 # Llegim els productes i guardem el seu preu associat a l'ID

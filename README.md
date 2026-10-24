@@ -6,7 +6,13 @@ Aquest repositori es una solució per a una prova tècnica online per entrar a l
 
 L'objectiu d'aquesta tasca és calcular el cost total de cada ordre i guardar el resultat a `order_prices.csv`. La solució consisteix en llegir els ids al camp `products` de `orders.csv`, buscar el preu corresponent als ids a `products.csv` i escriure el resultat al nou csv. El codi es pot executar encara que s'hi afegeixin nous productes a posteriori, i aquest calculará els preus un altre cop des de zero, evitant preus incorrectes si el codi s'executa múltiples vegades.
 
-Per executar-ho, hi ha prou amb tenir python 3 al sistema, amb la comanda `python tasca1.py`.
+Per executar-ho, hi ha prou amb tenir python 3 al sistema, i executar la comanda `python tasca1.py`.
+
+## Tasca 2
+
+L'objectiu d'aquesta tasca és calcular quins clients han comprat quins productes, i guardar el resultat a `product_customers.csv`. La solució consisteix en llegir les ordres associades a cada client a `orders.csv`, afegirles a un diccionari inicialitzat per evitar duplicars i escriure el resultat al nou csv. Aquest codi també es pot executar de nou encara que s'actualitzi la base de dades degut a que aquest evita que noves comandes afegeixin duplicats.
+
+Per executar-ho, hi ha prou amb tenir python 3 al sistema, i executar la comanda `python tasca2.py`.
 
 # Exercici
 
